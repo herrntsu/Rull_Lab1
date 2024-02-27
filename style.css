@@ -1,0 +1,222 @@
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: 'Montserrat';
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: red;
+}
+.w100 {
+  font-weight: 100;
+}
+.w200 {
+  font-weight: 200;
+}
+.w300 {
+  font-weight: 300;
+}
+.w400 {
+  font-weight: 400;
+}
+
+.header a{
+	float: left;
+  color: black;
+  padding: 15px 6px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: Montserrat;
+  letter-spacing: 6px;
+}
+
+.intro a{
+font-weight: bold;
+color: red;
+font-size: 50px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: flex;
+left: 270px;
+top: 300px;
+white-space: nowrap;
+}
+
+.intro h2{
+font-weight: bold;
+color: black;
+font-size: 50px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 270px;
+top: 315px;
+white-space: nowrap;
+}
+
+.intro h3{
+font-weight: bold;
+color: black;
+font-size: 50px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 270px;
+top: 365px;
+}
+
+.intro h4{
+font-weight: bolder;
+color: red;
+font-size: 18px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 272px;
+top: 460px;
+letter-spacing: 3px;
+}
+
+img{
+  padding: 160px;
+  border-radius: 1000px;
+  width: 25%;
+  position: center;
+}
+
+.about h1{
+font-weight: bold;
+color: #8B0000;
+font-size: 24px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 38px;
+top: 180px;
+letter-spacing: 3px;
+}
+
+.about h2{
+font-weight: normal;
+color: black;
+font-size: 17px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 38px;
+top: 230px;
+letter-spacing: 3px;
+}
+
+.about h3{
+font-weight: bold;
+color: #8B0000;
+font-size: 24px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 38px;
+top: 480px;
+letter-spacing: 3px;
+}
+.about h4{
+font-weight: normal;
+color: black;
+font-size: 17px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 38px;
+top: 530px;
+letter-spacing: 3px;
+}
+
+.footer h1{
+font-weight: normal;
+color: black;
+font-size: 17px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 720px;
+top: 870px;
+letter-spacing: 3px;
+}
+
+
+.TArea textarea{
+	resize: none;
+	width: 700px;
+	height: 500px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+	position: absolute;
+	top: 250px;
+	left: 70px;
+}
+
+.TArea h1{
+font-weight: bold; 
+color: #8B0000;
+font-size: 24px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 70px;
+top: 150px;
+letter-spacing: 3px;
+}
+
+.TArea a{
+font-weight: normal; 
+color: black;
+font-size: 24px;
+font-family: 'Montserrat';
+vertical-align: -250px;
+position: absolute;
+left: 70px;
+top: 200px;
+letter-spacing: 3px;
+}
+
+
+.button {
+  background-color: #D0312D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  top: 775px;
+  left: 70px;
+  position: absolute;
+}
+
+.button:hover {
+  background-color: #990F02;
+  color: white;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,0.2), 0 17px 25px 0 rgba(0,0,0,0.19);
+}
+

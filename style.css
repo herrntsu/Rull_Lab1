@@ -44,16 +44,13 @@
   letter-spacing: 6px;
 }
 
-.intro a{
+.intro {
 font-weight: bold;
 color: red;
 font-size: 50px;
 font-family: 'Montserrat';
 vertical-align: -250px;
-position: flex;
-left: 270px;
-top: 300px;
-white-space: nowrap;
+display: flex;
 }
 
 .intro h2{
@@ -183,15 +180,13 @@ top: 150px;
 letter-spacing: 3px;
 }
 
-.TArea a{
+.text {
 font-weight: normal; 
 color: black;
 font-size: 24px;
 font-family: 'Montserrat';
 vertical-align: -250px;
 position: flex;
-left: 70px;
-top: 200px;
 letter-spacing: 3px;
 }
 
@@ -200,12 +195,11 @@ letter-spacing: 3px;
   background-color: #D0312D;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 40px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 10px 10px;
   cursor: pointer;
   border-radius: 8px;
   transition-duration: 0.4s;

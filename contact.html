@@ -1,54 +1,59 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		
+
+<head>
+
 	<title>
-	Personal Portfolio
+		Personal Portfolio
 	</title>
-		<link rel="stylesheet" href="style.css">
-		 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
-		
-		 
-	<div class = "header">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
+
+
+	<div class="header">
 		<a> WELCOME TO MY PORTFOLIO</a>
 	</div>
 	<div class="topnav">
-  		<a class="active" href="#contact">CONTACT</a>
-  		<a href="about.html">ABOUT</a>
-  		<a href="index.html">HOME</a>
+		<a class="active" href="#contact">CONTACT</a>
+		<a href="about.html">ABOUT</a>
+		<a href="index.html">HOME</a>
 	</div>
 </head>
-	<div class= "TArea">
-		<body>
+<div class="TArea">
+
+	<body>
 		<h1>
 			Contact Us
 		</h1>
-	
+
 		<a>
 			<em>For inquiries and general feedback. Please send us a message.</em>
 		</a>
-		<textarea id= "Text" placeholder="Type here..."></textarea>
-	</div>
 
-	<div class = "footer">
+</div>
+
+
+<script>
+	function SubmitFunction() {
+		document.getElementById("contactForm").submit();
+		document.getElementById("Text").value = "";
+		alert("Thank you for your feedback!");
+	}
+</script>
+<form id="contactForm">
+
+	<textarea id="Text" placeholder="Type here..."></textarea>
+	<div class="button" onclick="SubmitFunction()">
+		Send
+	</div>
+	<div class="footer">
 		<h1>
 			&#169; Copyright <strong>Personal Portfolio.</strong> All Rights Reserved.
 		</h1>
 	</div>
-	<script>
-		function SubmitFunction() {
-		document.getElementById("contactForm").submit();
-		document.getElementById("Text").value = "";
-		alert("Thank you for your feedback!");
-		}
-		</script>
-	<form id = "contactForm">
-	<div class = "button" onclick="SubmitFunction()">
-		Send
-	</div>
 </form>
 
-	  
+
 </body>
 
 

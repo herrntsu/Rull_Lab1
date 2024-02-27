@@ -62,7 +62,7 @@ color: black;
 font-size: 50px;
 font-family: 'Montserrat';
 vertical-align: -250px;
-position: absolute;
+position: flex;
 left: 270px;
 top: 315px;
 white-space: nowrap;

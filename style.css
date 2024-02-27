@@ -211,7 +211,7 @@ letter-spacing: 3px;
   transition-duration: 0.4s;
   top: 775px;
   left: 70px;
-  position: absolute;
+  position: flex;
 }
 
 .button:hover {

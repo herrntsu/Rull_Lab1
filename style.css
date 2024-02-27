@@ -33,7 +33,13 @@
   font-weight: 400;
 }
 
-.header a{
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header a {
 	float: left;
   color: black;
   padding: 15px 6px;
@@ -44,13 +50,18 @@
   letter-spacing: 6px;
 }
 
-.intro {
+.content-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20vh 0;
+}
+
+.intro a{
 font-weight: bold;
 color: red;
 font-size: 50px;
 font-family: 'Montserrat';
-vertical-align: -250px;
-display: flex;
 }
 
 .intro h2{
@@ -88,11 +99,17 @@ top: 460px;
 letter-spacing: 3px;
 }
 
+.intro a, h2, h3, h4 {
+  margin: 0.3vh;
+}
+
 img{
-  padding: 160px;
-  border-radius: 1000px;
-  width: 25%;
-  position: center;
+  /* padding: 160px; */
+  border-radius: 50%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 12vw;
 }
 
 .about h1{

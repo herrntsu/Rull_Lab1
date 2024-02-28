@@ -13,6 +13,8 @@
 			document.getElementById("contactForm").submit();
 			document.getElementById("Text").value = "";
 			alert("Thank you for your feedback!");
+			var textElement = document.getElementById("Text");
+		textElement.parentNode.removeChild(textElement);
 		}
 	</script>
 </head>
@@ -24,9 +26,9 @@
 			<a> WELCOME TO MY PORTFOLIO</a>
 		</div>
 		<div class="topnav">
-			<a href="contact.html">CONTACT</a>
+			<a class="active" href="contact.html">CONTACT</a>
 			<a href="about.html">ABOUT</a>
-			<a class="active" href="index.html">HOME</a>
+			<a href="index.html">HOME</a>
 		</div>
 	</div>
 
@@ -39,18 +41,19 @@
 			<em>For inquiries and general feedback. Please send us a message.</em>
 		</a>
 	</div>
-	
-	<form id="contactForm">
 
-		<textarea id="Text" placeholder="Type here..."></textarea>
+	<form id="contactForm">
+		<textarea class="Text" id="Text" rows="30" cols="110" placeholder="Type here..."></textarea>
 		<div class="button" onclick="SubmitFunction()">
 			Send
 		</div>
-		<div class="footer">
-			<h1>
-				&#169; Copyright <strong>Personal Portfolio.</strong> All Rights Reserved.
-			</h1>
-		</div>
 	</form>
+	<div class="footer">
+		<h1>
+			&#169; Copyright <strong>Personal Portfolio.</strong> All Rights Reserved.
+		</h1>
+	</div>
+
 </body>
+
 </html>
